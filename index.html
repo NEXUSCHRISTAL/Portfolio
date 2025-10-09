@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id="theme-style" rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Kaizer's Portfolio</title>
+  </head>
+  <body>
+    <header id="header">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+
+        <button id="theme-switcher">Mode</button>
+
+        <p id="statment">Creative Coder, Writer, and Artist.</p>
+        <!-- animate this in typing effect with JS -->
+    </header>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>Web Developer.</h1>
+                <h2>About Me.</h2>
+                <p>
+                    I am a passionate coder and artist who loves to blend technology with creativity.
+                    My journey began with a fascination for how things were made and how they interacted, leading me to explore various programming languages and artistic mediums.
+                    Through this portfolio, I aim to showcase my projects that reflect my skills and artistic vision. 
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="images/Snapchat-416976400~2.jpg" alt="A picture of Kaizer" id="image1" />
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects.</h2>
+
+      <div class="project">
+        <h3>Weather Outfit App</h3>
+        <p>This app recommends outfits based on the weather. When a user types in their city, it fetches real-time weather data from the OpenWeather API and generates an outfit recommendation suitable for those conditions. I am currently working on adding auto-detection for the user's location.</p>
+        <img src="images/Screenshot 2025-09-12 191413.png" alt="image of the web application">
+        <p><strong>Technologies used:</strong> HTML, CSS, JavaScript, OpenWeather API</p>
+        <div class="project-links">
+          <a href=" https://nexuschristal.github.io/Weather-Outfit--v2./" target="_blank">View Live</a>
+          <a href="https://github.com/NEXUSCHRISTAL/Weather-Outfit--v2..git" target="_blank">Source Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Digital Clock</h3>
+        <p>This is a digital clock that displays the current time and date. It also features themes that change based on the time of day. I am currently working on adding user-selectable themes (like Halloween, fantasy, and cyber themes) and an analogue clock display. This project was a personal challenge to see if I could build a clock.</p>
+        <img src="images/Screenshot 2025-09-12 192526.png" alt="image of the clock">
+        <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href="https://nexuschristal.github.io/Digital-Clock/" target="_blank">View Live</a>
+          <a href="https://github.com/nexuschristal/Digital-Clock" target="_blank">Source Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Quotes Generator</h3>
+        <p>This is a website that displays motivational quotes to the user at the click of a button. I plan to further develop it by adding categories for different types of quotes (like wisdom, humor, etc.) and implementing a function to let users share their favorite quotes on social media.</p>
+        <img src="images/Screenshot 2025-09-12 192656.png" alt="">
+        <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href=" https://nexuschristal.github.io/Quote-Generator-vs1/" target="_blank">View Live</a>
+          <a href="https://github.com/NEXUSCHRISTAL/Quote-Generator-vs1.git" target="_blank">Source Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>My Website</h3>
+        <p>This website is aimed to showcase my projects that reflect my skills and artistic vision.</p>
+        <img src="images/Screenshot 2025-10-02 024302.png" alt="">
+        <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href=" https://nexuschristal.github.io/My-Website/" target="_blank">View Live</a>
+          <a href="https://github.com/NEXUSCHRISTAL/My-Website.git" target="_blank">Source Code</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Creative Skills</h3>
+          <ul>
+            <li>Illustration</li>
+            <li>Painting</li>
+            <li>Clip Studio Paint</li>
+            <li>3D Blender</li>
+            <li>Animation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email:
+        <a href="mailto:kaizerdanielokafor@gmail.com">Kaizerdanielokafor@gmail.com</a>
+      </p>
+      <p>Phone: <a href="tel:+447907477413">+44 790 7477 413</a></p>
+
+      <form action="https://formspree.io/f/xqadnewr" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" target="_blank">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/NEXUSCHRISTAL" target="_blank">GitHub</a>
+      </div>
+      <p>&copy; Kaizer 2025. 🧸 vs.1</p>
+      <a href="#" class="back-to-top">^</a>
+    </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
